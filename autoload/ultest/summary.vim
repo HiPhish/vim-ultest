@@ -60,7 +60,7 @@ function! ultest#summary#toggle(jump) abort
   endif
 endfunction
 
-function! ultest#summary#render(test) abort
+function! ultest#summary#render(...) abort
   if s:IsOpen()
     call s:RenderSummary()
   endif
